@@ -152,8 +152,8 @@ test = 0;
 			rename("Mask_filter");
 			roiManager("Show All without labels");
 			saveAs("Tiff");
-			//Overlay
-			selectWindow("Overlay_filter");
+			//Overlay			
+			selectWindow("Overlay_filter");
 			saveAs("Tiff", File.getDefaultDir + "Overlay_filter.tif");
 			//ROI
 			selectWindow("ROI Manager");
