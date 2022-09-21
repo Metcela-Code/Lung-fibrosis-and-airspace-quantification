@@ -21,7 +21,6 @@ run("Select None");
 run("Duplicate...", "title=[Parenchyma_copy]");
 close(ParenchymaImage);
 
-
 //Closing of the parenchyma external limit
 Dialog.create("Input files #2 (2/3)");
 Dialog.addMessage("Open sample border ROI set");
