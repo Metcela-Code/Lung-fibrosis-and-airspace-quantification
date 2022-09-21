@@ -1,4 +1,4 @@
-This module allows to remove the pleura from the whole sample. It is based on a reduction of ROI at a defined distance over a binary mask (e.g., output of module 2b).
+This module allows to remove the pleura from the whole sample. It is based on a reduction of the sample ROI at a defined distance over a binary mask (e.g., output of module 2b).
 
 Briefly, the image is duplicated, and the user is invited to repair eventual breaks in the sample. Then, the pleura thickness is set by a defined distance from the border of the sample. Finally, a visualization is assembled.
 
