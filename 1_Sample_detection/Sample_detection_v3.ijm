@@ -57,6 +57,7 @@ close("Composite");
 //Definition of lower and upper values of autothreshold
 selectWindow("B");
 setAutoThreshold();
+setOption("BlackBackground", false);
 getThreshold(auto_lower, auto_upper);
 run("Set Measurements...", "area perimeter limit display redirect=None decimal=3");
 
