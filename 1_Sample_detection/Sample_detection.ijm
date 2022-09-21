@@ -135,7 +135,7 @@ test = 0;
 		Dialog.addString("Applies to:", Title);
 		Dialog.addString("Test #:", test);
 		Dialog.addString("Particles count:", ParticlesCount);		
-		Dialog.addMessage("Threshold parameters (0~254):");
+		Dialog.addMessage("Threshold parameters (0~255):");
 		Dialog.addNumber("Lower value:", current_lower);
 		Dialog.addNumber("Upper value:", current_upper);
 		options = newArray("Test settings", "Confirm settings", "Reset (autothreshold: " + auto_lower + ", " + auto_upper + ")");
@@ -148,14 +148,14 @@ test = 0;
 		if (current_lower < 0) {
 			current_lower = auto_lower;
 		}
-		if (current_lower > 254) {
+		if (current_lower > 255) {
 			current_lower = auto_lower;
 		}		
 		current_upper = Dialog.getNumber();
 		if (current_upper < 0) {
 			current_upper = auto_upper;
 		}
-		if (current_upper > 254) {
+		if (current_upper > 255) {
 			current_upper = auto_upper;
 		}		
 		select = Dialog.getRadioButton();
