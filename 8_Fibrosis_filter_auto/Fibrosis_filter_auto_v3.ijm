@@ -153,7 +153,7 @@ test = 0;
 			roiManager("Show All without labels");
 			saveAs("Tiff");
 			//Overlay
-			selectWindow("Overlay_filter");
+			selectWindow("Overlay_filter");
 			saveAs("Tiff", File.getDefaultDir + "Overlay_filter.tif");
 			//ROI
 			selectWindow("ROI Manager");
