@@ -45,7 +45,7 @@ setFont("SansSerif", 50, "antiliased");
 drawString("Airspace", x, y, "black");
 
 //Deletion of intermediate files
-//close("Overlay_1");
+close("Overlay_1");
 
 //Ouput
 	//Save dialog
