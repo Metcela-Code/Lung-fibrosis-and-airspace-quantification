@@ -2,4 +2,4 @@ This module allows to extract the parenchyma from the original image. It is base
 
 Briefly, the original image is duplicated, and undesirable regions are deleted.
 
-Output consists of: (1) RGB image of the parenchyma, (2) measurements (area and perimeter) of the parenchyma, (3) ROI file, and (4) settings (input file name and scale). 1
+Output consists of: (1) RGB image of the parenchyma, (2) measurements (area and perimeter) of the parenchyma, (3) ROI file, and (4) settings (input file name and scale).
