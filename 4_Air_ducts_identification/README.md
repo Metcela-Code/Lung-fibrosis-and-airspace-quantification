@@ -2,4 +2,4 @@ This module allows to define the air ducts. It is based on a manual identificati
 
 Briefly, the image is duplicated and anatomical structures are identified by the user. A visualization is assembled in real-time.
 
-Output consists of: (1) overlay of ROI over original mask, and (2) ROI file. 1
+Output consists of: (1) overlay of ROI over original mask, and (2) ROI file.
